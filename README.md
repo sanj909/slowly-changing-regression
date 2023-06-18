@@ -1,25 +1,8 @@
 # Loss of Plasticity in Deep Continual Learning
 
-This repository was forked from https://github.com/shibhansh/loss-of-plasticity
+This repository was forked from https://github.com/shibhansh/loss-of-plasticity. 
 
-# Installation
-
-```sh
-virtualenv --python=/usr/bin/python3.8 loss-of-plasticity/
-source loss-of-plasticity/bin/activate
-cd loss-of-plasticity
-pip3 install -r requirements.txt
-pip3 install -e .
-```
-
-Add these lines in your .zshrc
-
-```sh
-source PATH_TO_DIR/loss-of-plasticity/lop/bin/activate
-export PYTHONPATH=$PATH:PATH_TO_DIR/lop 
-```
-
-Alternatively, type
+## Installation
 
 ```
 cd loss-of-plasticity
